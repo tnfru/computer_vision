@@ -8,15 +8,17 @@ of learning to design CNN architectures.
 
 ## CIFAR
 
-Currently my network is ~70% accuracy. I will try to improve it with data 
+CIFAR10 has been implemented, but will be improved further. CIFAR100 is up next.
+Currently my network is at 70% accuracy. I will try to improve it with data 
 augmentation and a better network structure.
 
 ## MNIST
 
 My take on the classic MNIST dataset to classify handwritten digits.
+Current accuracy is at 99.6%. It is unlikely that I am going to improve that.
 
 I implemented it both in torch and keras.
-The keras version hit 0.99614% on kaggle. It uses a slightly changed version of
+The keras version hit 0.99614 on kaggle. It uses a slightly changed version of
 LeNet5 replacing 5x5 Filter with two 3x3 for non linerarity.
 
 I also implemented a basic version in pytorch, which uses a large number of epochs, 
