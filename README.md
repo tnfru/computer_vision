@@ -9,6 +9,7 @@ of learning to design CNN architectures.
 ## CIFAR
 
 CIFAR10 has been implemented, but will be improved further. CIFAR100 is up next.
+
 Currently my network is at 70% accuracy. I will try to improve it with data 
 augmentation and a better network structure.
 
