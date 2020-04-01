@@ -6,10 +6,10 @@ offering free GPUs and TPUs.
 In these I am not using transfer learning as it would basically kill the idea
 of learning to design CNN architectures.
 
-## CIFAR
+## CIFAR-10
 
-I've implemented an architecture with blocks from Inception v.1 and a ResNet
-architecture. The ResNet converges to 88% accuracy.
+The architecture is similiar to a Wide-ResNet and achieves 90% accuracy in 30 epochs of 
+training.
 
 ## MNIST
 
