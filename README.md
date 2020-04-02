@@ -8,8 +8,9 @@ of learning to design CNN architectures.
 
 ## CIFAR-10
 
-The architecture is similiar to a Wide-ResNet and achieves 90% accuracy in 30 epochs of 
-training.
+We use a Wide-ResNet and achieve 93.23% accuracy, beating the original ResNet56v1 
+by .2%.
+This is due to Dropout and the parallell convolutions in conv and identity modules.
 
 ## MNIST
 
