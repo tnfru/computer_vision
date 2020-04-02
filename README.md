@@ -14,10 +14,10 @@ This is due to Dropout and the parallell convolutions in conv and identity modul
 
 ## MNIST
 
-My take on the classic MNIST dataset to classify handwritten digits.
-We achieve 99.6%, close to state of the art. 
+My take on the classic MNIST dataset to classify handwritten digits, which 
+achieves 99.6% accuracy.
 
-There are a PyTorch and a Keras version in this repository.
+There are a PyTorch and a Keras implementations in this repository.
 The Keras version hit 0.99614 on kaggle. It uses a slightly changed version of
 LeNet5 replacing 5x5 Filter with two 3x3 for non linerarity.
 
